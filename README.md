@@ -1,4 +1,4 @@
-# React: HackerBank
+# React: Render Filter Sort
 
 ## Environment 
 
@@ -6,17 +6,13 @@
 - Node Version: 12(LTS)
 - Default Port: 8000
 
-## Application Demo:
-
-![](https://hrcdn.net/s3_pub/istreet-assets/FGlur_Ov682QyDjcxduO-w/hackerbank.gif)
-
 ## Functionality Requirements
 
 Implement the following functionalities:
 
 - All transactions are initially displayed inside the table in the order they are retrieved from the source. The source is passed down as `txns` prop to TransactionTable component in App.js.
 
-- Picking the date from the date input and pressing the `Filter` button should display all the records for that date in the table. If no date is chosen, the `Filter` button should not do anything.
+- Picking the date from the date input  should display all the records for that date in the table.
 
 - Clicking on the `Amount ($)` table header should sort the records in ascending order of amount. The behavior is the same for multiple clicks on `Amount ($)`.
 
